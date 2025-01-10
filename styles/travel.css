@@ -12,6 +12,7 @@
 nav{
     display: flex;
     justify-content: space-between;
+    margin: 5px 60px;
 }
 .nav-title{
     display: flex;
@@ -43,4 +44,34 @@ nav li a{
     text-decoration: none;
     color: #424247;
     font-size: 20px;
+}
+
+.explore-section{
+    background-image: url('../Images/Group\ 13\ \(1\)\ \(1\).png');
+    background-repeat: no-repeat;
+    height: 500px;
+    text-align: center;
+    margin: 5px 70px;
+}
+.explore-content{
+    padding: 100px 50px;
+}
+.explore-content h2{
+    font-size: 45px;
+    color: #ffffff;
+}
+.explore-content p{
+    color: #ffffff;
+    font-size: 15px;
+    padding: 0px 200px;
+}
+.explore-content button{
+    padding: 10px 35px;
+    border: none;
+    background-color: #ffffff;
+    color: #131318;
+    border-radius: 2px;
+}
+.explore-content .btn-primary{
+    background-color: #ff5400;
 }
