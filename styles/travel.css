@@ -19,6 +19,8 @@ nav{
     font-size: 35px;
     gap: 10px;
     color: #131318;
+    position: relative;
+    top: 0px
 
 }
 .travel{
@@ -52,9 +54,12 @@ nav li a{
     height: 500px;
     text-align: center;
     margin: 5px 70px;
+    /* position: relative; */
+    /* bottom: 50px; */
 }
 .explore-content{
     padding: 100px 50px;
+    justify-content: center;
 }
 .explore-content h2{
     font-size: 45px;
@@ -74,4 +79,97 @@ nav li a{
 }
 .explore-content .btn-primary{
     background-color: #ff5400;
+    color: white;
+}
+
+.button-content{
+    background-color: #ffffff59;
+    padding: 10px 50px;
+    margin-left: 200px;
+    margin-right: 200px;
+    
+}
+.section-content{
+    position: relative;
+    
+}
+
+/* main section style */
+.popular-container{
+    display: flex;
+    margin-top: 70px;
+    gap: 50px;
+    padding: 20px 70px;
+}
+.read-btn{
+    background-color: #ff5400;
+    border: none;
+    padding: 8px 15px;
+    color: #ffffff;
+    border-radius: 7px;
+}
+.main-image{
+    width: 400px;
+    height: 400px;
+}
+.main-title{
+    font-size: 40px;
+    margin-top: 5px;
+}
+
+.choose-content{
+    text-align: center;
+
+}
+.choose-content h2{
+    font-size: 35px;
+    color: #131318;
+}
+.choose-content p{
+    font-size: 15px;
+    color: #424247;
+}
+
+/* images styles start */
+
+.images-collage{
+    /* margin: 10px 70px; */
+    padding: 20px 70px;
+
+}
+.square-collage{
+    gap: 100px;
+}
+.choose-us{
+    text-align: center;
+}
+.choose-us p{
+    font-size: 15px;
+    color: #424247;
+}
+.choose-us h3{
+    font-size: 30px;
+    color: #131318;
+}
+
+.division-collage{
+    display: flex;
+}
+
+@media screen and (max-width: 576px) {
+    nav{
+        flex-direction: column;
+    }
+    .explore-section{
+        height: 500px;
+        width: 1000px;
+    }
+    .button-content{
+        flex-direction: column;
+        
+    }
+    .popular-container{
+        flex-direction: column;
+    }
+    
 }
