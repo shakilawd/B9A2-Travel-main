@@ -101,6 +101,21 @@ nav li a{
     gap: 50px;
     padding: 20px 70px;
 }
+
+.popular-container h3{
+    color: #131318;
+}
+.popular-container p{
+    color: #424247;
+    font-size: 15px;
+}
+.popular-container ul{
+    color: #424247;
+    font-size: 15px;
+}
+.tempus{
+    color: #131318;
+}
 .read-btn{
     background-color: #ff5400;
     border: none;
@@ -261,9 +276,47 @@ nav li a{
     font-size: 15px;
 }
 
-.simple-container{
-
+.newsletter{
     display: flex;
+    gap: 50px;
+    /* padding: 50px 30px 5px 20px; */
+    margin: 50px 100px 30px 100px;
+    /* height: 100%; */
+    /* width: 100%; */
+}
+.newsletter-one{
+    /* height: 400px; */
+    /* width: 400px; */
+    border: 1px solid tomato;
+    padding: 70px 30px;
+    border-radius: 10px;
+}
+.newsletter-one p{
+    color: #424247;
+    font-size: 15px;
+}
+.border-content{
+    border: 1px solid rgba(128, 128, 128, 0.151);
+
+}
+.newsletter-two img{
+    width: 600px;
+    height: 400px;
+    
+}
+.newsletter-one input{
+    padding: 10px 150px;
+    border-radius: 5px;
+    background-color: #4242470e;
+    border: none;
+    
+}
+.newsletter-one button{
+    padding: 10px 195px;
+    background-color: #ff5400;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
 }
 @media screen and (max-width: 576px) {
     nav{
