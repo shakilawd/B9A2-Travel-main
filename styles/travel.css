@@ -280,12 +280,12 @@ nav li a{
     display: flex;
     gap: 50px;
     /* padding: 50px 30px 5px 20px; */
-    margin: 50px 100px 30px 100px;
+    margin: 20px 100px 30px 100px;
     /* height: 100%; */
     /* width: 100%; */
 }
 .newsletter-one{
-    /* height: 400px; */
+    height: 270px;
     /* width: 400px; */
     border: 1px solid tomato;
     padding: 70px 30px;
@@ -317,6 +317,19 @@ nav li a{
     color: #ffffff;
     border: none;
     border-radius: 5px;
+}
+.travel-time{
+    background-color: #ff5400;
+    width: 240px;
+    text-align: center;
+    color: #ffffff;
+    position: relative;
+    bottom: 150px;
+    padding: 5px 10px;
+    left: 300px;
+    border-radius: 10px;
+
+
 }
 @media screen and (max-width: 576px) {
     nav{
