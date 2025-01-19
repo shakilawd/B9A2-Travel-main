@@ -331,6 +331,36 @@ nav li a{
 
 
 }
+
+/* footer styles */
+
+footer{
+    text-align: center;
+    padding: 50px 30px;
+    background-color: #42424715;
+}
+
+.footer-content{
+    display: flex;
+    font-size: 30px;
+    gap: 10px;
+    color: #131318;
+    margin: 0px 500px;
+    padding: 5px 0px;
+    margin-bottom: 5px;
+
+    
+}
+.right-all{
+    border: 1px solid #13131833;
+    margin: 5px 150px;
+}
+.footer-description{
+    margin-top: 0px;
+    color: #424247;
+    font-size: 13px;
+}
+
 @media screen and (max-width: 576px) {
     nav{
         flex-direction: column;
