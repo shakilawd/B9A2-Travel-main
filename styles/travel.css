@@ -328,6 +328,7 @@ nav li a{
     padding: 5px 10px;
     left: 300px;
     border-radius: 10px;
+    rotate: -45deg;
 
 
 }
