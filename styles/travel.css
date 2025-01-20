@@ -280,7 +280,7 @@ nav li a{
     display: flex;
     gap: 50px;
     /* padding: 50px 30px 5px 20px; */
-    margin: 20px 100px 30px 100px;
+    margin: 40px 100px 0px 100px;
     /* height: 100%; */
     /* width: 100%; */
 }
@@ -360,6 +360,7 @@ footer{
     color: #424247;
     font-size: 13px;
 }
+
 
 @media screen and (max-width: 576px) {
     nav{
